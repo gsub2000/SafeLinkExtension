@@ -71,14 +71,10 @@ chrome.runtime.sendMessage({message: msgString}, async function(response) {
 
 function highlight(tag) {
     if (tag){
-        var text = tag.textContent;
         var h = tag.innerHTML;
-        var index = h.indexOf(text);
-        
-        var s = h.substring(0, index) + '<span style="background-color: aqua;">' + h.substring(index, index+text.length) + '</span>' +  h.substring(index+text.length);
         var s2 = '<span style="background-color: aqua;">' + h + '</span>';
         
-        tag.innerHTML = s2;
+        tag.style.backgroundColor = "aqua";
     }
 };
 
