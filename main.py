@@ -8,7 +8,7 @@ app = Flask(__name__)
 cors = CORS(app)
 app.config['CORS_HEADER'] = "Content-Type"
 
-@app.route('/data', methods=["POST"])
+@app.route('/', methods=["POST"])
 def processData():
     msg = request.form['message'].split(',')
     links = msg[1:-1]
