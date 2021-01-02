@@ -5,7 +5,7 @@ chrome.runtime.onMessage.addListener(
         console.log("we did it folks");
         
         $.ajax({
-            url: "https://safe-link-heroku.herokuapp.com/",
+            url: "http://127.0.0.1:5000/",
             type: "POST",
             data: request,
             success: function(resp){

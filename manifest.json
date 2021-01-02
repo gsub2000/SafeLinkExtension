@@ -20,6 +20,6 @@
         "default_title": "SafeLink"
     },
     "permissions" : [
-        "http://127.0.0.1/*", "https://ajax.googleapis.com/", "tabs", "activeTab", "storage", "https://www.coolmath.com/"
+        "http://127.0.0.1/*", "https://ajax.googleapis.com/", "tabs", "activeTab", "storage", "https://www.coolmath.com/", "https://safe-link-heroku.herokuapp.com/"
     ]
 }
