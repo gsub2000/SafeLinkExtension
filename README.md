@@ -10,11 +10,11 @@ Screenshots:
 
 
 Tech Stack:
--Heroku
--Python Flask
--HTML
--Javascript
--Sklearn Library
+- Heroku
+- Python Flask
+- HTML
+- Javascript
+- Sklearn Library
 
 Future Implementations:
 
