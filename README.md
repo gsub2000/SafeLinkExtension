@@ -6,5 +6,4 @@ This is meant to flag links on a website in order to make sure that people don't
 Coding Minds Academy.
 
 bash```
-python main.py runserver 127.0.0.1:5000
-```
+python main.py runserver 127.0.0.1:5000```
