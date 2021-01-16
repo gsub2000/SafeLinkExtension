@@ -7,7 +7,7 @@ This is meant to flag links on a website in order to make sure that people don't
 The accuracy of the AI model is still be validated and is still IN PROGRESS.
 
 ### Screenshots:
-!(https://github.com/gsub2000/SafeLinkExtension/screenshot.png)
+!["Picture"](screenshot.png)
 
 ### Tech Stack:
 - Heroku
